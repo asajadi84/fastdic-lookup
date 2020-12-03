@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "FastDic Search",
+  "short_name": "FDSearch",
+  "description": "Searches for the selected text in the FastDic",
+  "version": "1.0",
+  "minimum_chrome_version": "38",
+  "permissions": [
+    "contextMenus", 
+    "tabs"],
+  "icons": {
+    "16": "assets/fastdic.ico"
+  },
+  "background": {"page": "background.html"}
+}
